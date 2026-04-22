@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.calculadora {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.linea-operacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.1rem;
+}
+
+#resultado {
+    min-width: 60px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #d9534f; 
+}
+
+.btn-calcular {
+    width: 100%;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#num1, #num2 {
+    width: 80px; 
+    text-align: center;
+}
+
+#op {
+    width: 55px;
+}
+
+.simbolo-igual {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 250px;
+
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.teclado button {
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+}
+
+.teclado button:hover {
+    background-color: #ccc;
+}

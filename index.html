@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo">Calculadora</div>
+        <a href="https://github.com" class="nav-btn" target="_blank">
+            <i class="bi bi-github"></i> Repositorio
+        </a>
+    </nav>
+
+    <div class="calculadora">
+    <h2>Calculadora mamalona</h2>
+    
+    <div class="linea-operacion">
+        <input type="number" id="num1" placeholder="N1">
+        
+        <select id="op">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option> 
+        </select>
+
+        <input type="number" id="num2" placeholder="N2">
+        
+        <span class="simbolo-igual">=</span>
+        
+        <div id="resultado">?</div>
+    </div>
+
+    <button class="btn-calcular" onclick="calcular()">Calcular</button>
+
+    <div class="teclado">
+        <button onmousedown="event.preventDefault(); insertar(1)">1</button>
+        <button onmousedown="event.preventDefault(); insertar(2)">2</button>
+        <button onmousedown="event.preventDefault(); insertar(3)">3</button>
+        <button onmousedown="event.preventDefault(); insertar(4)">4</button>
+        <button onmousedown="event.preventDefault(); insertar(5)">5</button>
+        <button onmousedown="event.preventDefault(); insertar(6)">6</button>
+        <button onmousedown="event.preventDefault(); insertar(7)">7</button>
+        <button onmousedown="event.preventDefault(); insertar(8)">8</button>
+        <button onmousedown="event.preventDefault(); insertar(9)">9</button>
+        <button onmousedown="event.preventDefault(); insertar(0)">0</button>
+        <button onmousedown="event.preventDefault(); borrarUno()" style="background-color: #ffcccc;">←</button>
+        <button onmousedown="event.preventDefault(); limpiarTodo()" style="background-color: #ffcccc;">C</button>
+    </div>
+</div>
+
+<footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+            <p class="copyright">Calculadora hecha por Brandon Carranza & Jose Arevalo</p>
+            <p style="font-size: 0.7rem;">Papi, 0 IA</p>
+        </div>
+    </footer>
+
+    
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
