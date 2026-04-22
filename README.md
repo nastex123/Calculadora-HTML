@@ -24,3 +24,7 @@ Este es un proyecto de calculadora básica desarrollado para RIWI. El objetivo e
 ├── style.css           # Estilos específicos de la calculadora
 ├── layout.css          # Estilos del Navbar y Footer
 └── calculadora.js      # Lógica de programación
+```
+Autores y Colaboradores
+Coder: Brandon Carranza
+Colaborador: Jose Arevalo
