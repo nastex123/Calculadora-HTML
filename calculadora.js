@@ -31,7 +31,7 @@ function calcular() {
     }
 
     // Mostramos el resultado en el HTML
-    cajaResultado.innerText = "Resultado: " + total;
+    cajaResultado.innerText = total;
 }
 
 // Variable para saber cuál fue el último input tocado
