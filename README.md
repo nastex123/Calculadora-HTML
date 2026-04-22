@@ -1,15 +1,15 @@
 # Calculadora Mamalona - Proyecto Académico
 
-Este es un proyecto de calculadora básica desarrollado para la asignatura de **Programación I**. El objetivo es demostrar el uso de tecnologías web fundamentales (HTML, CSS y JavaScript) mediante una interfaz funcional y estética.
+Este es un proyecto de calculadora básica desarrollado para RIWI. El objetivo es demostrar el uso de tecnologías web fundamentales (HTML, CSS y JavaScript) mediante una interfaz funcional y estética.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **HTML5**: Estructura semántica de la aplicación.
-* **CSS3**: Diseño responsivo, uso de **CSS Grid** para el teclado interactivo y **Flexbox** para la alineación de la operación.
-* **JavaScript (ES6+)**: Lógica aritmética, manipulación del DOM y gestión de eventos de teclado.
+* **CSS**: Diseño responsivo, uso de **CSS Grid** para el teclado interactivo y **Flexbox** para la alineación de la operación.
+* **JavaScript**: Lógica aritmética, manipulación del DOM y gestión de eventos de teclado.
 * **Bootstrap Icons**: Iconografía para la interfaz y redes sociales.
 
-## 🚀 Características
+## Características
 
 * **Formato Lineal**: Visualización de la operación en el formato `[Num1 op Num2 = Resultado]`.
 * **Teclado Interactivo**: Permite la entrada de datos mediante clics sin perder el foco en los campos de texto.
